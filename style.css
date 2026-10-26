@@ -248,6 +248,7 @@ img {
   font-size: 24px;
   font-weight: 700;
   color: var(--clay);
+  display: block;
 }
 
 /* Contact */
