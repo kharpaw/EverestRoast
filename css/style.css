@@ -336,7 +336,9 @@ textarea {
     padding: 8px 10px;
   }
   .container{
-    padding:30px 20px
+    width: 100%;
+    max-width: 100%;
+    padding:30px 20px;
   }
   .hero .container,
   .split,
@@ -344,7 +346,7 @@ textarea {
     flex-direction: column;
   }
   .cards,
-  .product-grif{
+  .product-grid{
     grid-template-columns: 1fr
   }
   .button{
@@ -353,4 +355,5 @@ textarea {
   .site-footer{
     padding: 24px 20px
   }
+
 }
