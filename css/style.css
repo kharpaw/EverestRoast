@@ -306,3 +306,51 @@ textarea {
 .site-footer p {
   margin: 0;
 }
+
+/* Media view like ipad and phones*/
+
+@media(max-width: 600px){
+  body {
+    font-size: 16px
+  }
+  h1 {
+    font-size:36px
+  }
+  h2{
+    font-size: 26px
+  }
+  h3{
+    font-size:20px
+  }
+  .site-header{
+    flex-direction:column;
+    gap:16px;
+    padding: 20px;
+  }
+  .site-nav ul {
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:4px;
+  }
+  .site-nav a{
+    padding: 8px 10px;
+  }
+  .container{
+    padding:30px 20px
+  }
+  .hero .container,
+  .split,
+  .contact-layout{
+    flex-direction: column;
+  }
+  .cards,
+  .product-grif{
+    grid-template-columns: 1fr
+  }
+  .button{
+    padding: 12px 24px
+  }
+  .site-footer{
+    padding: 24px 20px
+  }
+}
