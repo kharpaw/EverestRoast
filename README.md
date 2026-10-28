@@ -1,4 +1,4 @@
-# Simple website using HTML and CSS
+# Simple website built using HTML and CSS
 
 
 ## Folder Structure
@@ -17,11 +17,18 @@ Site/
     └──index.html
     └──products.html
 ├── Test_image/
+    └──ancpchour.png
+    └──coffee.png
+    └──location.png
+    └──preview1.png
+    └──preview2.png
+    └──preview3.png
+    └──service.png
+    └──Story.png
 └── README.md
 └── results.html
 
 ```
-
 
 ## Website Preview
 ### This is my index.html page
@@ -34,5 +41,6 @@ Site/
 ![alt text](/img/preview3.png)
 
 Check out my page [Click me](https://kharpaw.github.io/EverestRoast/)
+
 
 
