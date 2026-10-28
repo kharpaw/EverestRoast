@@ -334,7 +334,10 @@ textarea {
     grid-template-columns: 1fr
   }
   .button{
-    padding: 12px 24px
+    padding: 12px 24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
   .site-footer{
     padding: 24px 20px
