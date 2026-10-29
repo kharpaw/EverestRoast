@@ -291,7 +291,7 @@ textarea {
   margin: 0;
 }
 
-/* Media view like ipad and phones*/
+/*Media view for mobile*/
 
 @media(max-width: 600px){
   body {
@@ -335,9 +335,7 @@ textarea {
   }
   .button{
     padding: 12px 24px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+   
   }
   .site-footer{
     padding: 24px 20px
